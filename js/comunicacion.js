@@ -6,7 +6,7 @@ function myFunction() {
     console.log(dirIP);
 
     ros = new ROSLIB.Ros({
-        url : 'wss://'+dirIP+':9090'
+        url : 'ws://'+dirIP+':9090'
       });
 
 
